@@ -1,10 +1,88 @@
 :root {
---cyan: hsl(179, 62%, 43%)
---bright yellow: hsl(71, 73%, 54%)
---light gray: hsl(204, 43%, 93%)
---grayish blue: hsl(218, 22%, 67%)
+  --cyan: hsl(179, 62%, 43%);
+  --lightcyan: hsl(179, 47%, 52%);
+  --brightyellow: hsl(71, 73%, 54%);
+  --lightgray: hsl(204, 43%, 93%);
+  --grayishblue: hsl(218, 22%, 67%);
+  --white: hsl(255, 255%, 255%);
 }
 
-body{
-    font-family: "Karla", sans-serif;
+html,
+body {
+  font-family: "Karla", sans-serif;
+  /* height: auto;
+    margin: auto; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+.parent-grid {
+}
+
+.item-1,
+.item-2,
+.item-3 {
+  padding: 2rem;
+}
+
+.item-1 {
+  background-color: var(--white);
+}
+
+.heading {
+  font-weight: 600;
+  color: var(--cyan);
+}
+
+.item-1-sub {
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: var(--brightyellow);
+}
+
+.item-1-body {
+  color: var(--grayishblue);
+}
+
+.item-2 {
+  background-color: var(--cyan);
+  color: #ffffff;
+}
+
+button {
+  background-color: var(--brightyellow);
+  border: none;
+  width: 100%;
+  padding: 0.75rem;
+  color: var(--white);
+}
+
+.subheading {
+  font-size: 1.25rem;
+}
+
+.price {
+  display: flex;
+  flex-direction: columns;
+  align-items: center;
+}
+
+.cost {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.freq {
+  color: hsla(255, 255, 255, 0.2);
+}
+
+.item-body {
+  color: var(---white);
+}
+
+.item-3 {
+  background-color: var(--lightcyan);
+  color: var(--white);
 }
