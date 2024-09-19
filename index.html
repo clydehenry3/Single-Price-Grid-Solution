@@ -9,16 +9,43 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Single Price Grid Component</title>
   </head>
   <body>
-    Join our community 30-day, hassle-free money back guarantee Gain access to
-    our full library of tutorials along with expert code reviews. Perfect for
-    any developers who are serious about honing their skills. Monthly
-    Subscription &dollar;29 per month Full access for less than &dollar;1 a day
-    Sign Up Why Us Tutorials by industry experts Peer &amp; expert code review
-    Coding exercises Access to our GitHub repos Community forum Flashcard decks
-    New videos every week
+    <div class="parent-grid">
+      <div class="item-1">
+        <div class="heading">Join our community</div>
+        <div class="sub-heading">30-day, hassle-free money back guarantee</div>
+        <div class="item-body">
+          Gain access to our full library of tutorials along with expert code
+          reviews. Perfect for any developers who are serious about honing their
+          skills.
+        </div>
+      </div>
+      <div class="item-2">
+        <div class="subheading">Monthly Subscription</div>
+        <div class="price">
+          <div class="cost">&dollar;29</div>
+          <div class="freq">per month</div>
+        </div>
+        <div class="item-body">Full access for less than &dollar;1 a day</div>
+        <button>Sign Up</button>
+      </div>
+      <div class="item-3">
+        <div class="subheading">Why Us</div>
+        <div class="item-body">
+          Tutorials by industry experts Peer &amp; expert code review Coding
+          exercises Access to our GitHub repos Community forum Flashcard decks
+          New videos every week
+        </div>
+      </div>
+    </div>
   </body>
 </html>
