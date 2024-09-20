@@ -1,6 +1,6 @@
 # Frontend Mentor - Single Price Grid Component Solution
 
-![](./screenshot.jpg)
+![](/Screenshot.png)
 
 ## Table of contents
 
@@ -14,7 +14,6 @@
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -27,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](/Screenshot.png)
 
 ### Links
 
@@ -46,39 +45,44 @@ Users should be able to:
 
 ### What I learned
 
--
+- Working within CSS grid was what I learned the most! It was a little difficult to find the right code that applies to manipulate the grid that I was looking for. I understand that all grids are completely different and there are a lot of properties to manipulate the grid but here are a couple pieces of code that I learned along the way
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<div class="item-1"></div>
+<!-- Appropriately naming a class that I am going to target based on the design. -->
 ```
 
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.parent-grid {
+  grid-template-columns: 1fr 1fr; /* Having two columns to fix the design needs*/
 }
-```
 
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
+.item-1 {
+  grid-column: span 2; /* Spanning the grid item across 2 columns. */
+}
+
+@media (max-width: 700px) {
+  .parent-grid {
+    grid-template-columns: 1fr;
+  }
+  .item-1 {
+    grid-column: span 1;
+  }
+} /* Responsively making the grid into one single column while giving equal width and height of the first grid item */
 ```
 
 ### Continued development
 
--
+- I will continue to work on projects with FEM that use grids in addition to expanding my knowledge in terms of syntax.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) -
-- [Example resource 2](https://www.example.com) - still learning this concept.
+- [Grid Video 1](https://youtu.be/-66-ctvXHGY?si=W_-ogyC4dlUU5mob)
+- [Grid Video 2](https://youtu.be/EiNiSFIPIQE?si=y7Tav-lHdKJ5Cm_O)
+- [Grid Video 1](https://youtu.be/rg7Fvvl3taU?si=Q8emaGWxNJsSAE7f)
 
 ### Author
 
 - Website - [Clyde Forland](https://www.clydeforland.com)
 - Frontend Mentor - [@clydehenry3](https://www.frontendmentor.io/profile/clydehenry3)
 - Twitter - [@clydehenry3](https://www.twitter.com/clydehenry3)
-
-## Acknowledgments
-
--
