@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
-- [Live Site URL ](https://your-live-site-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/single-grid-card-fOxhOflyv3)
+- [Live Site URL ](https://single-price-grid-solution.vercel.app/)
 
 ## My process
 
@@ -79,7 +79,7 @@ Users should be able to:
 
 - [Grid Video 1](https://youtu.be/-66-ctvXHGY?si=W_-ogyC4dlUU5mob)
 - [Grid Video 2](https://youtu.be/EiNiSFIPIQE?si=y7Tav-lHdKJ5Cm_O)
-- [Grid Video 1](https://youtu.be/rg7Fvvl3taU?si=Q8emaGWxNJsSAE7f)
+- [Grid Video 3](https://youtu.be/rg7Fvvl3taU?si=Q8emaGWxNJsSAE7f)
 
 ### Author
 
