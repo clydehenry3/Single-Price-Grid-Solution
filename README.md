@@ -1,7 +1,5 @@
 # Frontend Mentor - Single Price Grid Component Solution
 
-![](/Screenshot.png)
-
 ## Table of contents
 
 - [Overview](#overview)
